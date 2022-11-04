@@ -1,0 +1,17 @@
+[tool.poetry.scripts]
+vast = "vast.vast:main"
+
+[tool.poetry]
+name = "vast"
+version = "0.0.1"
+description = "Vast.ai CLI"
+authors = ["vast.ai"]
+
+[tool.poetry.dependencies]
+python = ">=3.7,<=3.99"
+borb = "2.1.5.4"
+pillow = "9.3.0"
+python-dateutil = "2.8.2"
+requests = "2.28.1"
+setuptools = ">=63.2.0"
+
